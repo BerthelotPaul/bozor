@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+/* Header */
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    width: 100%;
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+    margin-left: 2%;
+}
+li{
+    float: left;
+}
+li a {
+    width: 100%;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+a {
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Home Page */
+
+.home_title, h2, p {
+    text-align: center;
+    color: white;
+}
