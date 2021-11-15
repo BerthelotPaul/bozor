@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #1A0A43;
+    font-family: 'Yuji Mai', serif;
+}
+
+video {
+    position: absolute;
+    top: -2%;
+    left: 34%;
+}
+
+.box-button {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+h1{
+    color: #3EFBFF;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+}
+button {
+    background-color: #1A0A43;
+    font-family: 'Anton', sans-serif;
+    color: #3EFBFF  ;
+}
