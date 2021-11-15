@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../Bozor2000/bozor2000-style.css" rel="stylesheet">
     <title>Document</title>
-</head>
 
 <body>
-    <video width="320" height="240" autoplay="true" loop>
+    <script type="text/javascript" src="../Bozor2000/bozor2000-script.js"></script>
+
+    <video autoplay="true" loop>
         <source src="../Bozor2000/BOZOR2000.mp4">
     </video>
     <h1>Choose your destiny</h1>
@@ -21,7 +22,7 @@
     </div>
 
     <div class="resultat"></div>
-
+    <script type="text/javascript" src="../Bozor2000/bozor2000-script.js"></script>
 
 
 </body>
