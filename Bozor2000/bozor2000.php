@@ -24,7 +24,10 @@
     </div>
 
 
-    <div id="affichage">
+    <div id="container">
+        <div id="affichage"></div>
+        <div id="ordi"></div>
+        <div id="resultat"></div>
     </div>
 
 
