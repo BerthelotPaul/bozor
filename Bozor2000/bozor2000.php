@@ -15,13 +15,19 @@
         <source src="../Bozor2000/BOZOR2000.mp4">
     </video>
     <h1>Choose your destiny</h1>
+
+
     <div class="box-button">
-        <button class="neon">Pierre</button>
-        <button class="neon">Feuilles</button>
-        <button class="neon">Ciseaux</button>
+        <button id="pierre">Pierre</button>
+        <button id="feuille">Feuilles</button>
+        <button id="ciseaux">Ciseaux</button>
     </div>
 
-    <div class="resultat"></div>
+
+    <div id="affichage">
+    </div>
+
+
     <script type="text/javascript" src="../Bozor2000/bozor2000-script.js"></script>
 
 
