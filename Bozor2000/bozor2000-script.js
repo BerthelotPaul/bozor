@@ -24,11 +24,37 @@ window.pierre = function () {
     }
 }
 window.feuille = function () {
-    affiche.innerHTML = "C'est un autre texte"
+    ordi2 = (Math.floor(Math.random() * 3));
+    if (ordi2 == 0) {
+        affiche.innerHTML = `Joueur : Feuille <br>
+                             Bozor2000 : Pierre <br>
+                             Résultat : Gagné`;
+    } else if (ordi2 == 1) {
+        affiche.innerHTML = `Joueur : Feuille <br>
+                             Bozor2000 : Feuille <br>
+                             Résultat : Egalité`;
+    } else if (ordi2 == 2) {
+        affiche.innerHTML = `Joueur : Feuille <br>
+                             Bozor2000 : Ciseaux <br>
+                             Résultat : Perdu`;
+    }
 }
 
 window.ciseaux = function () {
-    affiche.innerHTML = "Autre texte encoreeee" + ordiChoix;
+    ordi3 = (Math.floor(Math.random() * 3));
+    if (ordi3 == 0) {
+        affiche.innerHTML = `Joueur : Ciseaux <br>
+                             Bozor2000 : Pierre <br>
+                             Résultat : Perdu`;
+    } else if (ordi3 == 1) {
+        affiche.innerHTML = `Joueur : Ciseaux <br>
+                             Bozor2000 : Feuille <br>
+                             Résultat : Gagné`;
+    } else if (ordi3 == 2) {
+        affiche.innerHTML = `Joueur : Ciseaux <br>
+                             Bozor2000 : Ciseaux <br>
+                             Résultat : Egalité`;
+    }
 }
 
 
