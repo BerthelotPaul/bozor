@@ -11,9 +11,12 @@
 <body>
     <script type="text/javascript" src="../Bozor2000/bozor2000-script.js"></script>
 
+    <!--
     <video autoplay="true" loop>
         <source src="../Bozor2000/BOZOR2000.mp4">
-    </video>
+    </video> 
+    !-->
+    <img src="../Bozor2000/bozor.gif">
     <h1>Choose your destiny</h1>
 
 
@@ -25,9 +28,11 @@
 
 
     <div id="container">
-        <div id="affichage"></div>
-        <div id="ordi"></div>
-        <div id="resultat"></div>
+        <div id="affichage">Joueur: </div>
+        <div id="ordi">Ordi : </div>
+        <div id="resultat">Résultat :</div>
+        <div id="victoire">Victoire : 0</div>
+        <div id="defaite">Défaite : 0</div>
     </div>
 
 
