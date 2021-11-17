@@ -84,21 +84,21 @@ button {
 #resultat {
     border-radius: 10px;
     padding: 1%;
-    background-color: rgb(126, 228, 177);
+    background-color: rgb(109, 112, 109);
     margin-top: 2%;
 }
 
 #victoire {
     border-radius: 10px;
     padding: 1%;
-    background-color: rgb(0, 255, 55);
+    background-color: rgb(97, 218, 123);
     margin-top: 2%;
 }
 
 #defaite {
     border-radius: 10px;
     padding: 1%;
-    background-color: rgb(230, 48, 24);
+    background-color: rgb(252, 101, 81);
     margin-top: 2%;
 }
 

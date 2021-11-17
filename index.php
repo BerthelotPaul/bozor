@@ -6,13 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bozor</title>
-    <link href="../Bozor/css/reset.css" rel="stylesheet">
-    <link href="../Bozor/css/style.css" rel="stylesheet">
+    <link href="    reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <?php include "../Bozor/composants/header.php" ?>
-    <p>Allez voir mon tic tac toe juste <a href="../Bozor/Bozor2000/bozor2000.php">ici</a></p>
+    <div class="header">
+        <h1>Bozor</h1>
+    </div>
+    <div class="projet1">
+        <p class="env">Mon projet <a href="../Bozor/Bozor2000/bozor2000.php">Bozor 2000</a> est disponible !</p>
+    </div>
+    <div class="projet2">
+        <p class="env">A venir mon projet <a href="#">DrBozor</a> !</p>
+    </div>
+    <div class="projet3">
+        <p class="env">A venir mon projet <a href="#">BozorTime</a> !</p>
+    </div>
+    <div class="projet4">
+        <p class="env">A venir mon projet <a href="#">BozorMetheo</a> !</p>
+    </div>
+
+    <div class="footer">
+        <h1>Meci d'être venu sur Bozorrrrr</h1>
+    </div>
+    
 </body>
 
 </html>
