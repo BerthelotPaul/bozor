@@ -37,11 +37,19 @@
     </div>
     <div class="section_pourquoi">
         <h2>Le pourquoi du comment ?</h2>
-        <p></p>
+        <p>Ce site me sert de bac à sable de développement , j'y posterai mes projets intérresants ,
+            pour l'instant mes reportoires gitHub sont privés mais cela pourrait changer dans les jours à venirs.<br>
+            J'espère que l'idée vous plait ! Si vous avez un avis à donner ou juste une volonté de me contacter, 
+            la page contact est disponible sur la navbar et le footer.
+
+
+        </p>
     </div>
-    <div class="footer">
-        <a>Mentions légales</a>
-    </div>
+
+
+
+
+    <?php include "../bozor/BozorHome/footer.php" ?>
 
 
 </body>
