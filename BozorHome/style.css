@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@300&display=swap');
+
+header {
+    background-color: #ffffff;
+    border-bottom: gold solid 3px;
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+header>div>a {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+header>.navbar>a {
+    margin-right: 5%;
+}
+
+header>div>a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 3%;
+}
+
+.section_hello {
+    padding-top: 3%;
+    background-color: rgb(42, 96, 177);
+    border-bottom: 3px solid black;
+}
+
+.section_hello>h1 {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 400%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(22, 223, 89), 0 0 0.2em rgb(0, 126, 165);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.section_hello>h2 {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.section_approuved {
+    background-color: rgb(228, 225, 80);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.section_approuved>h2 {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 3%;
+    margin-left: 8%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carding {
+    display: flex;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 15%;
+    height: 10%;
+    padding-bottom: 2%;
+}
+
+.carding>a {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.carding>a:hover {
+    color: red;
+}
+
+.carding>img {
+    width: 35%;
+    height: 75%;
+    margin-left: 30%;
+    border-radius: 10px;
+}

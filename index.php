@@ -6,31 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bozor</title>
-    <link href="    reset.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="../bozor/BozorHome/reset.css" rel="stylesheet">
+    <link href="../bozor/BozorHome/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Bozor</h1>
+    <?php include "../bozor/BozorHome/header.php" ?>
+    <div class="section_hello">
+        <h1>Bienvenue sur Bozor !</h1>
+        <h2>Everything it's Bozor ...</h2>
+        <img src="">
     </div>
-    <div class="projet1">
-        <p class="env">Mon projet <a href="../Bozor/Bozor2000/bozor2000.php">Bozor 2000</a> est disponible !</p>
+    <div class="section_approuved">
+        <h2>Accès rapide à mes derniers projets</h2>
+        <div class="card">
+            <div class="carding">
+                <a href="../bozor/Bozor2000/bozor2000.php">Bozor2000</a>
+                <img src="../bozor/BozorHome/bozor2mille.jpg">
+            </div>
+            <div class="carding">
+                <a>A venir</a>
+                <img src="../bozor/BozorHome/cming.jpg">
+            </div>
+            <div class="carding">
+                <a>A venir</a>
+                <img src="../bozor/BozorHome/cming.jpg">
+            </div>
+
+        </div>
     </div>
-    <div class="projet2">
-        <p class="env">A venir mon projet <a href="#">DrBozor</a> !</p>
+    <div class="section_pourquoi">
+        <h2>Le pourquoi du comment ?</h2>
+        <p></p>
     </div>
-    <div class="projet3">
-        <p class="env">A venir mon projet <a href="#">BozorTime</a> !</p>
-    </div>
-    <div class="projet4">
-        <p class="env">A venir mon projet <a href="#">BozorMetheo</a> !</p>
+    <div class="footer">
+        <a>Mentions légales</a>
     </div>
 
-    <div class="footer">
-        <h1>Meci d'être venu sur Bozorrrrr</h1>
-    </div>
-    
+
 </body>
 
 </html>
