@@ -7,6 +7,5 @@
         <a href="#">RGPD</a>
         <a> - </a>
         <a href="#">Contact</a>
-        <a> - </a>
     </div>
 </footer>
