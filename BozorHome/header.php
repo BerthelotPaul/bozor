@@ -6,6 +6,6 @@
         <a href="#">Accueil</a>
         <a href="#">Présentation</a>
         <a href="#">Projets</a>
-        <a href="#">Contact</a>
+        <a href="../Bozor/BozorHome/contact.php">Contact</a>
     </div>
 </header>
