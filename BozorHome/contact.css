@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@300&display=swap');
+
+.form>h2 {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    padding-top: 3.5%;
+    padding-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #a0e0cb;
+    padding-bottom: 5%;
+}
+
+.card_form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid gold;
+    width: 20%;
+    height: 20%;
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+label {
+    font-family: 'Bungee', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.card_form > button {
+    margin-top: 5%;
+    width: 70px;
+    height: 30px;
+}
+textarea {
+    resize: none;
+  }

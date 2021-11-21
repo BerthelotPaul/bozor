@@ -36,15 +36,16 @@ header>div>a:hover {
 
 .section_hello {
     padding-top: 3%;
-    background-image: url("../BozorHome/back2.jpg");
-    border-bottom: 3px solid rgb(255, 255, 255);
+    background-image: url("../BozorHome/back9.jpg");
+    background-size: 100%;
+    border-bottom: 15px solid rgb(255, 255, 255);
 }
 
 .section_hello>h1 {
     font-family: 'Bungee', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: rgb(255, 145, 0);
     font-size: 400%;
     font-weight: bold;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(22, 223, 89), 0 0 0.2em rgb(0, 126, 165);
@@ -57,19 +58,20 @@ header>div>a:hover {
     font-family: 'Bungee', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: orange;
     font-size: 200%;
     font-weight: bold;
     display: flex;
     justify-content: center;
     padding-bottom: 3%;
+    text-shadow: 1px 1px 2px black;
 }
 
 .section_approuved {
-    background-color: #94d2bd;
+    background-image: url("../BozorHome/back12.jpg");
     padding-top: 3%;
     padding-bottom: 4%;
-    border-bottom: solid 2px white;
+    border-bottom: solid 15px white;
 }
 
 .section_approuved>h2 {
@@ -82,7 +84,8 @@ header>div>a:hover {
     justify-content: flex-start;
     padding-bottom: 3%;
     margin-left: 8%;
-    color: white;
+    color: #ffffff;
+    text-shadow: 3px 1px 2px black;
 }
 
 .card {
@@ -127,7 +130,7 @@ header>div>a:hover {
 }
 
 .section_pourquoi {
-    background-image: url("../BozorHome/back.png");
+    background-image: url("../BozorHome/back13.jpg");
     padding-top: 4%;
     padding-bottom: 8%;
 }
@@ -142,7 +145,8 @@ header>div>a:hover {
     justify-content: flex-start;
     padding-bottom: 2%;
     margin-left: 8%;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 1px 2px black;
 }
 
 .section_pourquoi>p {

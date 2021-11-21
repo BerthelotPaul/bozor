@@ -14,8 +14,7 @@
     <?php include "../bozor/BozorHome/header.php" ?>
     <div class="section_hello">
         <h1>Bienvenue sur Bozor !</h1>
-        <h2>Everything it's Bozor ...</h2>
-        <img src="">
+        <h2>Everything is Bozor ...</h2>
     </div>
     <div class="section_approuved">
         <h2>Accès rapide à mes derniers projets</h2>
