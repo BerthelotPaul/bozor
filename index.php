@@ -11,7 +11,7 @@
     <title>Document</title>
 
 <body>
-    <img src="../Bozor2000/bozor.gif">
+    <img src="bozor.gif">
     <h1>Choose your destiny</h1>
 
     <div class="box-button">
